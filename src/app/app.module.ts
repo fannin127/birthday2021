@@ -18,8 +18,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule,
-    GoogleMapsModule
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
