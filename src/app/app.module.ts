@@ -6,9 +6,6 @@ import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 
 import {SlideshowModule} from 'ng-simple-slideshow';
-import { NgImageSliderModule } from 'ng-image-slider';
-
-
 
 @NgModule({
   declarations: [
@@ -18,8 +15,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule,
-    NgImageSliderModule
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
