@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 
 import {SlideshowModule} from 'ng-simple-slideshow';
-import { AgmCoreModule } from '@agm/core';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 
 
@@ -19,9 +19,7 @@ import { AgmCoreModule } from '@agm/core';
     BrowserModule,
     AppRoutingModule,
     SlideshowModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDv7b0fuQqIGFQyIZHtVTKPGdlczGCKz3I'
-    })
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
