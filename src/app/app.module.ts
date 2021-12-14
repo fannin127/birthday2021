@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 
 import {SlideshowModule} from 'ng-simple-slideshow';
-import { GoogleMapsModule } from '@angular/google-maps';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 
@@ -18,7 +18,8 @@ import { GoogleMapsModule } from '@angular/google-maps';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule
+    SlideshowModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
