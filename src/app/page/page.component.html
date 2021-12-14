@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand">Happy Birthday</a>
+</nav>
+
+<br>
+
+<h3 class="text-center">Your Trip</h3>
+
+<slideshow [minHeight]="'200px'" [showArrows]="true" [imageUrls]="imageUrls"
+    [lazyLoad]="imageUrls?.length > 1">
+</slideshow>
+
+<br>
+
+<div class="card center-div" style="width: 90%;">
+    <div class="card-body">
+        <h5 class="card-title">Information</h5>
+        <p class="card-text">
+            <div class="row">
+                <div class="col">
+                    The Pod
+                    <br>
+                    Churchstanton, Somerset
+                </div>
+
+                <ul class="col">
+                    <li>3 Nights</li>
+                    <li>31st January - 3rd February</li>
+                    <li>Treehouse in the woods</li>
+                </ul>
+            </div>
+
+
+    </div>
+</div>
+
+<div class="center-dev p-3">
+    <agm-map id="map" [latitude]='50.9101797' [longitude]='-3.1460109' [zoom]=8>
+        <agm-marker [latitude]='50.9101797' [longitude]='-3.1460109'></agm-marker>
+    </agm-map>
+</div>
+
+
+<br>
+
+<div class="card center-div" style="width: 90%;">
+    <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">
+            The Pod at Springwater is a unique, handcrafted property set up amongst the trees. It has two bedrooms: one
+            double,
+            with a large window and a view into the trees and the smaller, twin room, with offset bunk beds. The living
+            room has
+            a smart tv on a swing out bracket. There's also a well equipped bathroom with a great shower.
+
+            Downstairs is accessed through a trapdoor in the floor to the kitchen. Double doors open onto the backyard,
+            which
+            has an outdoor fireplace, pizza oven and bbq.
+      </p>
+      <h5 class="card-title">The space</h5>
+<p class="card-text">
+            As well as the accomodation, guests have full access to the field in front of The Pod, with a Willow grove
+            and mowed
+            pathways. Amongst the Willow, there's also a firepit, den and rope swing.
+
+            The Pod at Springwater is a great place to reconnect with nature and is in easy day-tripping distance for
+            many of
+            Devon, Somerset and Dorset's highlights.
+
+            You will also have three pygmy goats as neighbours!
+        </p>
+    </div>
+</div>
